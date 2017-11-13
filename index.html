@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nilu Khadka</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" type="text/css" href="about_us.css">
+	<link rel="stylesheet" type="text/css" href="services.css">
+	<link rel="stylesheet" type="text/css" href="contact.css">
+</head>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+	  	var scrollTo = $(window).height() - 80;
+
+	 	$(window).scroll(function () {
+		    if ($(window).scrollTop() > scrollTo) {
+		      $('#navigation-bar').addClass('navbar-fixed');
+		    }
+		    if ($(window).scrollTop() < scrollTo + 1) {
+		      $('#navigation-bar').removeClass('navbar-fixed');
+		    }
+	 	});
+	});
+</script>
+
+
+<body>
+		<div id="intro-section">
+			<div class="fullscreen-video-container">
+				<video loop muted autoplay class="fullscreen-video" src="Mountain_Video.mp4"></video>
+			</div>		
+
+			<div class="content-container">
+				<img src="Logo.png" class="logo-image">	
+
+				<h1 class="company-name">Nilu<br>Khadka</h1>
+
+				
+			</div>
+		</div>
+
+		<nav id="navigation-bar">
+			<img src="logo.png" class="nav-logo-image">	
+			<div class="nav-company-name-container">
+				<h1 class="nav-company-name">Nilu Khadka</h1>	
+			</div>
+		</nav>
+
+		<div id="about-us-section">
+			<div class="about-us-fullscreen-image-container">
+				<img src="About_us_background-2.png" class="about-us-background-image">
+
+				<div class="about-us-content-container">
+					<div class="text-box">
+						<h1 class="about-us-content-header">About Me</h1>	
+						<span class="about-us-content">
+							Graduating in May of 2018 from the University of Texas in Arlington with a Bachelors of Science in Information Systems, I am very passionate about programming. I've created beautiful websites and games. I thrive to grow my programming skills each day and want to use them to add value to your company. Born in Nepal, I came to the United States
+							to become a remarkable back-end or full-stack developer, I will never stop learning, and will help 
+							come up with creative solutions to make your companies digital goals a reality.  
+						</span>
+					</div>
+					<div class="image-container">
+						<img src="Team_in_studio.jpg" class="team_in_studio">
+
+						<div class="border-container">
+							<div class="quote-container">
+								<span class="box-quote">
+									Make a <br>
+									remarkable <br>
+									digital experience <br>
+								</span>	
+							</div>
+						</div>
+					</div>
+				</div>	
+			</div>
+
+			<script type="text/javascript">
+				var cw = $('.about-us-content-container .border-container').width();
+				$('.about-us-content-container .border-container').css({'height':cw+'px'});	
+			</script>
+		</div>
+
+		 <div id="services-section">
+			<div class="about-us-fullscreen-image-container">
+				<img src="turntable-1109588_1920.jpg" class="about-us-background-image">
+				<div class="services-section-content-container">
+					<div class="mixing-container services-text-container">
+						<h1 class="services-text-container-header">Technical Skills</h1>
+						<div class="services-text-container-icon-container">
+							<img class="services-text-container-icon" src="code.svg">
+						</div>
+							<span class="services-content">
+								I made this website with CSS, HTML & JavaScript with jquery. Currently building an android app game using Java. I have created many websites, small games with Java & Python. Created a SQL database and  maintained ER diagrams for a furniture company.  
+							</span>
+					</div>		
+							
+					<div class="mastering-container services-text-container">
+						<h1 class="services-text-container-header">Awards</h1>
+						<div class="services-text-container-icon-container">
+							<img class="services-text-container-icon" src="trophy.svg">
+						</div>
+							<span class="services-content">
+								Won Miss Teen Nepal 2012, I moved to the US and tranfered to the UTA from a community college I was awarded the Outstanding Transfer Student scholarship along with the Phi Theta Kappa Scholarship. I am also an Honor Student. I was also awarded with Highest QA in training at work in Wells Fargo and later on quickly promoted to Banker 2 from Banker 1. 
+							</span>
+					</div>				
+
+					<div class="restoration-container services-text-container">
+						<h1 class="services-text-container-header">Personal Qualifications</h1>
+						<div class="services-text-container-icon-container">
+							<img class="services-text-container-icon" src="personal.jpg">
+						</div>
+						<span class="services-content">
+							I am unquestionably a fast learner and a team player. I work everyday to be better. With strong logic skills and problem solving ability I work really hard to meet deadlines. Loving every aspect in the field of technology be it development or debugging, I want to move forward. Plus, my friends would agree that I have a good sense of humor. 
+						</span>
+					</div>				
+				</div>
+			</div>
+		</div>
+		
+		<div id="contact-us-section">
+			<div class="about-us-fullscreen-image-container">
+				<img src="string-555070_1280.jpg" class="about-us-background-image">
+			</div>
+
+			<div class="contact-us-container">
+				<div class="contact-us-logo-container">
+					<img src="Logo.png" class="contact-us-logo">
+				</div>
+
+				<h1 class="contact-us-header">Contact Me!</h1>
+
+				<span class="contact-us-subheader">Thank you for viewing my page. I love coming up <br> with creative solutions and turning them into a reality. Let me join your team!</span>
+
+				<div class="contact-us-icons-container">
+					<div class="call-container">
+						<a href="tel:3037176621">
+							<img src="smartphone-call.svg" class="contact-icon">	
+							<br>
+							<span class="contact-icon-title">Call</span>
+							<span class="contact-icon-subtitle">(817) 908-5784</span>	
+						</a>
+					</div>	
+
+					<div class="email-container">
+						<a href="mailto:nilukhadka3@gmail.com">
+							<img src="envelope.svg" class="contact-icon">
+							<br>
+							<span class="contact-icon-title">Email</span>
+							<span class="contact-icon-subtitle">nilukhadka3@gmail.com</span>
+						</a>
+					</div>
+
+					<div class="connect-container">
+						<a href="https://www.linkedin.com/in/nilu-khadka-75822197/" target="_blank">
+							<img src="linked_in.svg" class="contact-icon">
+							<br>
+							<span class="contact-icon-title">Connect</span>
+							<span class="contact-icon-subtitle">/nilukhadka</span>
+						</a>				
+					</div>
+				</div> 
+			</div>
+		</div>
+	
+</body>
+</html>
